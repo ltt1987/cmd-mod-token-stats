@@ -2,6 +2,9 @@
 
 A Command Code mod that shows live token usage, prompt-cache statistics, and generation speed in the status footer.
 
+<img width="745" height="460" alt="image" src="https://github.com/user-attachments/assets/7f175ea2-ddbf-404f-a1cc-e0acea21d113" />
+
+
 ## Features
 
 - Displays the prompt-cache hit rate.
@@ -33,7 +36,7 @@ You should see `token-stats` listed as a user mod. Start a new Command Code sess
 To update the mod after a new release:
 
 ```sh
-cmd mods update token-stats
+cmd mods update
 ```
 
 ### Load for One Session
