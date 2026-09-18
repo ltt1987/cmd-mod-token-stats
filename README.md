@@ -19,7 +19,7 @@ A Command Code mod that shows live token usage, prompt-cache statistics, and gen
 Install the mod directly from GitHub:
 
 ```sh
-cmd mod add git:https://github.com/ltt1987/cmd-mod-token-stats
+cmd mods add git:https://github.com/ltt1987/cmd-mod-token-stats
 ```
 
 Verify that Command Code detects it:
@@ -33,7 +33,7 @@ You should see `token-stats` listed as a user mod. Start a new Command Code sess
 To update the mod after a new release:
 
 ```sh
-cmd mod update token-stats
+cmd mods update token-stats
 ```
 
 ### Load for One Session
@@ -47,8 +47,8 @@ cmd --mod ./src/index.ts
 ## Project Structure
 
 ```text
-src/index.ts   Mod entry point
-package.json   Package metadata and ESM configuration
+src/index.ts   Mod entry point (jiti-compiled at load, no build step)
+package.json   Package metadata and mod registration (`commandcode.mods`)
 ```
 
 ## Usage

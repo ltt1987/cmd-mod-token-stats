@@ -2,6 +2,7 @@
   "name": "@ltt1987/cmd-mod-token-stats",
   "version": "1.0.0",
   "description": "A Command Code mod that shows live token usage, prompt-cache statistics, and generation speed in the status footer.",
-  "main": "dist/index.js",
-  "type": "module"
+  "commandcode": {
+    "mods": ["./src/index.ts"]
+  }
 }
