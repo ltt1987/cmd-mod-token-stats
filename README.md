@@ -22,7 +22,7 @@ A Command Code mod that shows live token usage, prompt-cache statistics, and gen
 Install the mod directly from GitHub:
 
 ```sh
-cmd mods add git:https://github.com/ltt1987/cmd-mod-token-stats
+cmd mods add git:https://github.com/ltt1987/cmd-mod-token-stats -g
 ```
 
 Verify that Command Code detects it:
